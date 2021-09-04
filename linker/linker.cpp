@@ -3612,7 +3612,7 @@ std::vector<android_namespace_t*> init_default_namespaces(const char* executable
   }
   DEBUG("Target SDK for %s = %d", executable_path, target_sdk);
 #endif
-  set_application_target_sdk_version(target_sdk);
+  set_application_target_sdk_version(config->target_sdk_version());
 
   std::vector<android_namespace_t*> created_namespaces;
   created_namespaces.reserve(namespaces.size());

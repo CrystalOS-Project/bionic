@@ -108,7 +108,6 @@
 #include <stdarg.h>
 #include "nsswitch.h"
 #include "private/bionic_defs.h"
-
 #include "hosts_cache.h"
 
 typedef union sockaddr_union {

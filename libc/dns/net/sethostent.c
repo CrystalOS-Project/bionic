@@ -54,7 +54,6 @@ __RCSID("$NetBSD: sethostent.c,v 1.20 2014/03/17 13:24:23 christos Exp $");
 
 #include "hostent.h"
 #include "resolv_private.h"
-
 #include "hosts_cache.h"
 
 #define ALIGNBYTES (sizeof(uintptr_t) - 1)

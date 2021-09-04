@@ -35,7 +35,6 @@
 
 #include <sys/cdefs.h>
 #include <stdint.h>
-
 #include <inaddr.h>
 
 /** A structure representing an IPv4 address. */
